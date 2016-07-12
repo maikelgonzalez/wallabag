@@ -346,6 +346,10 @@ import:
         page_title: 'Import > Readability'
         description: 'Ten importer, zaimportuje wszystkie twoje artykuły z Readability. Na stronie narzędzi (https://www.readability.com/tools/), kliknij na "Export your data" w sekcji "Data Export". Otrzymach email z plikiem JSON (plik nie będzie zawierał rozszerzenia .json).'
         how_to: 'Wybierz swój plik eksportu z Readability i kliknij poniższy przycisk, aby go załadować.'
+    # browser:
+    #    page_title: 'Import > Browser'
+    #    description: "This importer will import all your Firefox or Chrome bookmarks. <p>For Firefox, just go to your bookmarks (Ctrl+Maj+O), then into \"Import and backup\", choose \"Backup...\". You will obtain a .json file. </p>For Chrome, the location of the file depends on your operating system : <ul><li>On Linux, go into the <code>~/.config/chromium/Default/</code> directory</li><li>On Windows, it should be at <code>%LOCALAPPDATA%\\Google\\Chrome\\User Data\\Default</code></li><li>On OS X, it should be at ...</li></ul>Once you got there, copy the Bookmarks file someplace you'll find.<em><br>Note that if you have Chromium instead of Chrome, you'll have to correct paths accordingly.</em></p>"
+    #   how_to: "Please choose the bookmark backup file and click on the button below to import it. Note that the process may take a long time since all articles have to be fetched."
 
 developer:
     page_title: 'Deweloper'
